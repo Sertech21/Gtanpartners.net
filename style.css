@@ -1,0 +1,309 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./OIP\ \(2\).jpeg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    width: 1000px;
+    height: 100%;
+    position: initial;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900px;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    width: 600px;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 300px;
+    transition: 0.6s ease;
+    font-size: 0.7rem;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    font-size: 1rem;
+}
+
+.titre h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    font-size: 1rem;
+    margin: 15px;
+}
+
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.page{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 1rem;
+}
+.page a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+.pge{
+    background: #008357;
+    color: #ffffff;
+}
+
+.fb{
+    background: rgb(117, 117, 245);
+    color: #ffffff;
+}
+
+.itg{
+    background: rgb(211, 20, 211);
+    color: #ffffff;
+}
+@media screen and (max-width:599px) {
+    ul{
+        width: 90%;
+    }
+    ul li a{
+        font-size: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    ul{
+        width: 90%;
+    }
+    ul li a{
+        font-size: 0.4rem;
+    }
+
+}
+
+@media screen and (max-width:459px) {
+    ul{
+        width: 90%;
+    }
+    ul li a{
+        font-size: 0.3rem;
+    }
+   
+}
+
+@media screen and (max-width:426px) {
+    ul{
+        width: 100%;
+    }
+    ul li a{
+        font-size: 0.1rem;
+    }
+     
+}
+@media screen and (max-width:440px) {
+    ul{
+        width: 100%;
+    }
+    ul li a{
+        font-size: 0.2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    ul{
+        width: 100%;
+    }
+    ul li a{
+        font-size: 0.1rem;
+    }
+    
+}
+
+@media screen and (max-width:599px) {
+    .titre{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width:399px) {
+    .bouton{
+        width: 90%;
+        font-size: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:368px) {
+    .bouton{
+        width: 90%;
+        font-size: 0.4rem;
+        margin: 50px;
+    }
+
+}
+
+@media screen and (max-width:277px) {
+    .bouton{
+        width: 90%;
+        font-size: 0.3rem;
+        margin: 55px;
+    }
+
+}
+
+@media screen and (max-width:242px) {
+    .bouton{
+        width: 100%;
+        font-size: 0.3rem;
+        margin: 60px;
+    }
+
+}
+
+@media screen and (max-width:236px) {
+    .bouton{
+        width: 100%;
+        font-size: 0.2rem;
+        margin: 60px;
+    }
+
+}
+
+@media screen and (max-width:207px) {
+    .bouton{
+        width: 100%;
+        font-size: 0.1rem;
+        margin: 60px;
+    }
+
+}
+
+@media screen and (max-width:499px) {
+    .page{
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .page{
+        width: 90%;
+        font-size: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width:386px) {
+    .page{
+        width: 100%;
+        font-size: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:325px) {
+    .page{
+        width: 100%;
+        font-size: 0.3rem;
+    }
+
+}
+
+@media screen and (max-width:269px) {
+    .page{
+        width: 100%;
+        font-size: 0.2rem;
+    }
+
+}
+
+@media screen and (max-width:241px) {
+    .page{
+        width: 100%;
+        font-size: 0.1rem;
+    }
+
+}
